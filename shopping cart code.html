@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praise Quaker Oats</title>
+        <link href="shopping cart css.css" rel="stylesheet">
+        <script type="text/javascript" src="../../../Downloads/Telegram Desktop/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jQuery.SimpleCart.js"></script>
+    </head>
+    <body>
+        <style>
+            footer {
+                background-color: rgb(218, 218, 203);
+                padding: 20px;
+            }
+        
+            img {
+                max-width: 85%;
+                height: auto;
+            }
+            .menu{
+                display: flex;
+                padding: 20px;
+            }
+        </style>
+        <div>
+            <header>
+                <h1 class="page-heading">Praise Quaker Oats</h1>
+            </header>
+        </div>
+
+    <div class="menu">
+        <div class="product-description">
+            <img src="oat/QuakerOatsTin.jpg">
+            <div class="item-name">Quaker Oat Tin</div>
+                <p class="product-price">&#8358; 1800</p>
+                    <div class="add-button">
+                        <button class="btn btn-primary sc-add-to-cart" data-name="Quaker Oat Tin" data-price="1800" type="submit">ADD TO CART</button>
+                    </div>
+                
+        </div>
+        <div class="product-description">
+            <img src="oat/old fashioned tin.jpg">
+            <h3>Quater Oats Old-F Tin</h3>
+                <p class="product-price">&#8358; 13000</p>
+                    <div class="add-button">
+                        <button class="btn btn-primary sc-add-to-cart" data-name="Quaker Oat Old-F Tin" data-price="13000" type="submit">ADD TO CART</button>
+                    </div>
+                
+        </div>
+
+        <div class="product-description">
+            <img src="oat/refill.jpg">
+            <h3>Quater Oat Refill</h3>
+                <p class="product-price">&#8358; 2500</p>
+                    <div class="add-button">
+                        <button class="btn btn-primary sc-add-to-cart" data-name="Quaker Oat Refill" data-price="2500" type="submit">ADD TO CART</button>
+                    </div>
+                
+        </div>
+
+
+
+
+
+        <!-- Cart Grid -->
+    <div class="col-md-3">
+        <div id="cart"></div>
+        </div>
+        <!-- //Cart Grid -->
+        <script>
+        $(document).ready(function () {
+            $('#cart').simpleCart();
+        });
+        </script>
+
+
+
+
+
+
+
+    </div>
+    <div class="menu">
+        <div class="product-description">
+            <img src="oat/old fashioned.jpg">
+            <h3>Quater Oat Old-Fashioned</h3>
+                <p class="product-price">&#8358; 4300</p>
+                    <div class="add-button">
+                        <button class="btn btn-primary sc-add-to-cart" data-name="Quaker Oat Old-F" data-price="4300" type="submit">ADD TO CART</button>
+                    </div>
+                
+        </div>
+
+        <div class="product-description">
+            <img src="oat/sachet.jpg">
+            <h3>Quater Oat Sachet</h3>
+                <p class="product-price">&#8358; 1170</p>
+                    <div class="add-button">
+                        <button class="btn btn-primary sc-add-to-cart" data-name="Quaker Oat Sachet" data-price="1170" type="submit">ADD TO CART</button>
+                    </div>
+                
+        </div>
+    </div>
+    
+
+                    
+        <footer id="site-info">
+            
+            <form class="form-inline">Get deals:
+                <input type="email" class="form-control" size="50" placeholder="Email Address">
+                <button type="button" class="btn btn-danger">Sign Up</button>
+              </form>
+              <p>Copyright &copy; Praise Quaker Oats</p>
+        </footer>
+    </body>
+</html>
